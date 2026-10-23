@@ -1,0 +1,74 @@
+{
+  "kentucky": {
+    "primary_radars": [
+      "r1",
+      "r11",
+      "r13",
+      "r15",
+      "r16",
+      "r17",
+      "r18",
+      "r19",
+      "r20"
+    ],
+    "illustrative_radars": [
+      "r12"
+    ],
+    "excluded_radars": [
+      "r2",
+      "r10",
+      "r21",
+      "r22"
+    ],
+    "primary_window_minutes": 60,
+    "window_minutes": [
+      15,
+      30,
+      60,
+      120
+    ],
+    "minimum_window_passages": 30,
+    "minimum_reference_passages": 60,
+    "reference_minimum_duration_multiple": 2,
+    "quantile": 0.85,
+    "quantile_rule": "inverse empirical CDF, ceil(p*n)-1, equal passage weights"
+  },
+  "capacities": [
+    5,
+    10,
+    20
+  ],
+  "primary_capacity": 10,
+  "austin_radii": [
+    "0",
+    "0.5",
+    "1",
+    "2",
+    "5"
+  ],
+  "portland_scenarios": [
+    "primary",
+    "availability_30d",
+    "identical_followup_windows",
+    "same_recorded_limit_and_exception"
+  ],
+  "portland_rules": [
+    "latest",
+    "history",
+    "predictive_mean",
+    "empirical_uncertainty"
+  ],
+  "portland_reference_mph": 20,
+  "tie_seed": "TRA_METHOD_V01",
+  "query": {
+    "K_all": [
+      5,
+      10,
+      20
+    ],
+    "tie_seed": "TRA_METHOD_V01",
+    "numerical_tolerances": {
+      "closed_form_abs": 1e-10
+    }
+  }
+}

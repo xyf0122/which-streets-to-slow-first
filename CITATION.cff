@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the associated study when using these data or code."
+title: "Which Streets Should We Slow Down First?"
+type: software
+repository-code: "https://github.com/xyf0122/which-streets-to-slow-first"
+authors:
+  - family-names: Xu
+    given-names: Yifan
+  - family-names: Li
+    given-names: Zhixia
+  - family-names: Wei
+    given-names: Heng
+  - family-names: Sun
+    given-names: Shuang
+  - family-names: Yang
+    given-names: Hanyi
+  - family-names: Zhang
+    given-names: Changjian
+  - family-names: Zhou
+    given-names: Shanglian
+  - family-names: Zhang
+    given-names: Guohui
